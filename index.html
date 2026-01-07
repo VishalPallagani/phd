@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f7fb" />
+  <meta name="description"
+    content="PhD Dissertation Proposal — Generalized Planning Using Language Models and its Applications — Vishal Pallagani" />
+  <title>Vishal Pallagani - PhD Dissertation Proposal</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,450;9..144,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <strong>Vishal Pallagani</strong>
+          <small>PhD Dissertation • University of South Carolina</small>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <nav class="nav" aria-label="Section navigation">
+          <a class="pill" href="#overview">Overview</a>
+          <a class="pill" href="#abstract">Abstract</a>
+          <a class="pill" href="#questions">Research Questions</a>
+          <a class="pill" href="#committee">Committee</a>
+          <a class="pill" href="#gallery">Gallery</a>
+          <a class="pill" href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="theme-ic" aria-hidden="true">
+            <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" />
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M21 13.2A8.2 8.2 0 0 1 10.8 3a6.8 6.8 0 1 0 10.2 10.2Z" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <span class="theme-label">Theme</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <header class="hero" id="overview">
+    <div class="wrap hero-grid">
+      <div class="card hero-main reveal">
+        <div class="kicker"><span class="kdot"></span> PhD Dissertation • 2026</div>
+        <h1>Generalized Planning Using Language Models and its Applications</h1>
+        <p class="subtitle">
+          A dissertation direction at the intersection of <span class="hi">planning</span>, <span class="hi">language
+            models</span>,
+          and <span class="hi">robust decision-making</span>, focused on generalization, controllability, and real-world
+          impact.
+        </p>
+
+        <div class="meta-row" aria-label="Proposal metadata">
+          <div class="tag">Degree: <code>Ph.D.</code> • Computer Science</div>
+          <div class="tag">Institution: <code>University of South Carolina</code></div>
+          <div class="tag">College: <code>Molinaroli College of Engineering &amp; Computing</code></div>
+        </div>
+
+        <div class="btns">
+          <button class="btn primary" id="copyCiteBtn" type="button">Copy citation line</button>
+          <a class="btn" href="#abstract">Read abstract</a>
+          <a class="btn" href="#questions">Research questions</a>
+        </div>
+      </div>
+
+      <aside class="hero-side reveal">
+        <div class="mini">
+          <h3>Links</h3>
+          <p class="muted">
+            <span class="qlinks">
+              • <a class="underline" href="https://drive.google.com/file/d/1cgSR78VNK4xhm8DXXyPy8-_clko_kQRC/view?usp=sharing" target="blank">Proposal PDF</a><br />
+              • <a class="underline" href="https://docs.google.com/presentation/d/1ycjnwILq30ywgB2Tlr7OOjqh1jRIEbMX-HTZY5TJvVE/edit?usp=sharing" target="_blank">Slides</a><br />
+              • <a class="underline" href="https://scholar.google.com/citations?user=uUkfixUAAAAJ&hl=en" target="_blank">Google Scholar</a><br />
+              • <a class="underline" href="https://github.com/VishalPallagani" target="_blank">GitHub</a><br />
+              • <a class="underline" href="https://www.linkedin.com/in/vishalpallagani" target="_blank">LinkedIn</a>
+            </span>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <section id="abstract">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Abstract</h2>
+      </div>
+
+      <div class="panel reveal">
+        <div class="pad">
+          <div class="abstract-prose">
+            <p class="lead">
+              Planning is fundamental for intelligent systems, yet classical planners often struggle to scale and
+              transfer across domains due to
+              hand-engineered models, brittle search, and limited adaptability.
+            </p>
+
+            <p class="muted" style="margin-top:12px; line-height:1.75">
+              This dissertation investigates whether large language models (LLMs), powerful learners trained at scale, can
+              be
+              systematically leveraged to advance automated planning, while retaining the guarantees and structure that
+              planning requires.
+            </p>
+
+            <div class="hr"></div>
+
+            <div class="abs-block">
+              <h3>Contributions</h3>
+              <ul>
+                <li>
+                  <strong>Landscape &amp; taxonomy:</strong> a synthesis of <span class="hi">128</span> papers
+                  categorizing how LLMs are used in planning,
+                  organizing techniques, objectives, and applications into a coherent taxonomy.
+                </li>
+                <li>
+                  <strong>Plan generation with LMs:</strong> an empirical study of pretrained planning ability, gains
+                  from fine-tuning on planning data,
+                  and how <span class="hi">compact</span> models can be trained from scratch to better support plan
+                  generation.
+                </li>
+                <li>
+                  <strong>Neuro-symbolic planners:</strong> architectures integrating LMs with symbolic planning
+                  components to improve robustness and generalization,
+                  addressing LM failure modes in constrained decision-making.
+                </li>
+                <li>
+                  <strong>Real-world evaluation:</strong> studies in collaborative information-retrieval assistance and
+                  manufacturing replanning,
+                  demonstrating practical decision-making under constraints.
+                </li>
+              </ul>
+            </div>
+
+            <div class="hr"></div>
+
+            <p class="muted" style="margin:0; line-height:1.75">
+              Overall, the dissertation advances understanding of how LLMs can support, improve, and generalize
+              automated planning,
+              outlining a path toward planners that combine learning with symbolic reasoning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Research Questions</h2>
+      </div>
+
+      <div class="rq-shell reveal">
+        <div class="rq-grid">
+          <div class="rq-left">
+            <div class="rq-card">
+              <div class="rq-head">
+                <span class="rq-badge">RQ1</span>
+                <div class="rq-title">
+                  <strong>Characterization</strong>
+                  <span>How are language models being used for automated planning?</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="rq-card">
+              <div class="rq-head">
+                <span class="rq-badge">RQ2</span>
+                <div class="rq-title">
+                  <strong>Specialization</strong>
+                  <span>How can language models be used for effective plan generation?</span>
+                </div>
+              </div>
+
+              <div class="rq-sub">
+                <div class="rq-subitem">
+                  <span class="rq-mini">RQ2.1</span>
+                  <span>How well do pretrained language models perform on plan generation tasks?</span>
+                </div>
+                <div class="rq-subitem">
+                  <span class="rq-mini">RQ2.2</span>
+                  <span>Does fine-tuning on planning data improve the ability to generate valid plans?</span>
+                </div>
+                <div class="rq-subitem">
+                  <span class="rq-mini">RQ2.3</span>
+                  <span>How can a compact language model be trained from scratch to better support plan
+                    generation?</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="rq-card">
+              <div class="rq-head">
+                <span class="rq-badge">RQ3</span>
+                <div class="rq-title">
+                  <strong>Integration</strong>
+                  <span>How can language models and symbolic methods be combined to achieve robust plan generation via
+                    neuro-symbolic architectures?</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="rq-card">
+              <div class="rq-head">
+                <span class="rq-badge">RQ4</span>
+                <div class="rq-title">
+                  <strong>Application</strong>
+                  <span>How do new generalized planners perform in applications?</span>
+                </div>
+              </div>
+
+              <div class="rq-sub">
+                <div class="rq-subitem">
+                  <span class="rq-mini">RQ4.1</span>
+                  <span>In collaborative assistants for information retrieval</span>
+                </div>
+                <div class="rq-subitem">
+                  <span class="rq-mini">RQ4.2</span>
+                  <span>In manufacturing for replanning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rq-right">
+            <div class="rq-rail">
+              <div class="rail-top">
+                <div class="kicker"><span class="kdot"></span> Progress timeline</div>
+              </div>
+
+              <div class="rail">
+                <div class="rail-item done">
+                  <span class="rail-dot" aria-hidden="true"></span>
+                  <div class="rail-body">
+                    <strong>RQ1 • Characterization</strong>
+                    <span>Taxonomy from literature synthesis.</span>
+                  </div>
+                  <span class="rail-date">done</span>
+                </div>
+
+                <div class="rail-item current">
+                  <span class="rail-dot" aria-hidden="true"></span>
+                  <div class="rail-body">
+                    <strong>RQ2 • Specialization</strong>
+                    <span>Pretrained + fine-tuned + compact-from-scratch plan generation.</span>
+                  </div>
+                  <span class="rail-date">current</span>
+                </div>
+
+                <div class="rail-item done">
+                  <span class="rail-dot" aria-hidden="true"></span>
+                  <div class="rail-body">
+                    <strong>RQ3 • Integration</strong>
+                    <span>Neuro-symbolic architectures for robustness.</span>
+                  </div>
+                  <span class="rail-date">done</span>
+                </div>
+
+                <div class="rail-item current">
+                  <span class="rail-dot" aria-hidden="true"></span>
+                  <div class="rail-body">
+                    <strong>RQ4 • Application</strong>
+                    <span>IR assistants and manufacturing replanning.</span>
+                  </div>
+                  <span class="rail-date">ongoing</span>
+                </div>
+              </div>
+
+              <div class="rail-foot">
+                <div class="rail-note">
+                  <div class="rail-note-k">Theme</div>
+                  <div class="rail-note-v">From “how LMs are used” → “how to make them plan reliably” → “how they behave
+                    in practice.”</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="committee">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Committee</h2>
+      </div>
+
+      <div class="panel reveal">
+        <div class="pad">
+          <div class="committee">
+            <div class="person">
+              <div class="avatar" aria-hidden="true"></div>
+              <div class="who">
+                <strong>Biplav Srivastava</strong>
+                <span>Major Professor</span>
+              </div>
+              <img src="images/uofsc.png" alt="University of South Carolina" class="logo" />
+            </div>
+
+            <div class="person">
+              <div class="avatar alt1" aria-hidden="true"></div>
+              <div class="who">
+                <strong>Amit Sheth</strong>
+                <span>Major Professor</span>
+              </div>
+              <img src="images/uofsc.png" alt="University of South Carolina" class="logo" />
+            </div>
+
+            <div class="person">
+              <div class="avatar alt2" aria-hidden="true"></div>
+              <div class="who">
+                <strong>Ramtin Zand</strong>
+                <span>Examination Chair</span>
+              </div>
+              <img src="images/uofsc.png" alt="University of South Carolina" class="logo" />
+            </div>
+
+            <div class="person">
+              <div class="avatar alt3" aria-hidden="true"></div>
+              <div class="who">
+                <strong>Lior Horesh</strong>
+                <span>Committee Member</span>
+              </div>
+              <img src="images/ibm.png" alt="IBM Research" class="logo" />
+            </div>
+
+            <div class="person">
+              <div class="avatar alt4" aria-hidden="true"></div>
+              <div class="who">
+                <strong>Sarath Sreedharan</strong>
+                <span>Committee Member</span>
+              </div>
+              <img src="images/colorado.png" alt="Colorado State University" class="logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Gallery</h2>
+      </div>
+
+      <div class="carousel reveal" aria-label="image carousel">
+        <div class="track" id="track">
+          <div class="slide" data-bg="images/proposal.jpg">
+            <div class="cap">
+              <strong>Proposal Defense — Committee</strong>
+              <span>Vishal Pallagani with the dissertation committee following the proposal defense at the University of South Carolina.</span>
+            </div>
+          </div>
+          <div class="slide" data-bg="images/impact.png">
+            <div class="cap">
+              <strong>Impact</strong>
+              <span>Research output, industry collaboration, and community engagement.</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="cbtn prev" id="prevBtn" aria-label="Previous slide" title="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <button class="cbtn next" id="nextBtn" aria-label="Next slide" title="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="dots" id="dots" aria-label="slide navigation dots"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="panel reveal">
+        <div class="pad">
+          <p class="muted" style="margin:0; line-height:1.85">
+            <strong style="color:var(--text)">Vishal Pallagani</strong><br />
+            PhD • Computer Science • University of South Carolina<br />
+            <span class="muted">Email:</span> <a class="underline" href="#" onclick="return false;">(add your
+              email)</a><br />
+            <span class="muted">Links:</span>
+            <a class="underline" href="#" onclick="return false;">Google Scholar</a> ·
+            <a class="underline" href="#" onclick="return false;">Website</a> ·
+            <a class="underline" href="#" onclick="return false;">GitHub</a> ·
+            <a class="underline" href="#" onclick="return false;">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot foot-center">
+      <div>© <span id="year"></span> Vishal Pallagani • PhD Dissertation</div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+
+</html>
