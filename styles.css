@@ -4109,7 +4109,273 @@ code {
   }
 }
 
-@media (max-height: 860px) {
+@media (max-width: 540px) {
+  :root {
+    --site-header-offset: 0.4rem;
+    --hero-vpad: 0.85rem;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .section {
+    width: min(var(--max-width), calc(100% - 0.9rem));
+    padding: 3rem 0;
+  }
+
+  .panel,
+  .rq-card,
+  .committee-card,
+  .visual-panel {
+    border-radius: 1.15rem;
+  }
+
+  .site-header {
+    width: calc(100% - 0.9rem);
+    gap: 0.45rem 0.75rem;
+    padding: 0.45rem 0.75rem 0.3rem;
+  }
+
+  .brand {
+    gap: 0.65rem;
+  }
+
+  .brand-mark {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 0.8rem;
+  }
+
+  .brand-copy strong {
+    font-size: 0.88rem;
+  }
+
+  .brand-copy span {
+    display: none;
+  }
+
+  .nav-toggle {
+    padding: 0.62rem 0.9rem;
+    font-size: 0.88rem;
+  }
+
+  .site-nav {
+    padding-top: 0.45rem;
+  }
+
+  .site-nav a {
+    padding: 0.72rem 0;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    height: auto;
+    min-height: auto;
+    padding: 0.8rem 0.8rem 1.2rem;
+  }
+
+  .hero-inner {
+    min-height: 0;
+    gap: 0.8rem;
+  }
+
+  .hero-copy {
+    max-width: 100%;
+    gap: 0.3rem;
+    padding-top: 0.15rem;
+  }
+
+  .hero-eyebrow {
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hero-eyebrow-line {
+    width: 1.4rem;
+  }
+
+  .hero-headline {
+    font-size: clamp(1.85rem, 10vw, 2.55rem);
+    gap: 0 0.14em;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(0.95rem, 4.8vw, 1.25rem);
+  }
+
+  .hero-description {
+    max-width: 30ch;
+    font-size: 0.92rem;
+  }
+
+  .hero-actions {
+    width: 100%;
+    gap: 0.55rem;
+    margin-top: 0.25rem;
+  }
+
+  .hero-actions .button {
+    flex: 1 1 100%;
+    width: 100%;
+    min-height: 2.8rem;
+  }
+
+  .hero-timeline {
+    margin-top: 0.25rem;
+  }
+
+  .hero-timeline-nodes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+    padding-top: 0;
+  }
+
+  .hero-tl-node {
+    flex: none;
+    width: 100%;
+    max-width: none;
+    padding: 0.72rem 0.68rem;
+  }
+
+  .hero-tl-id {
+    font-size: 0.64rem;
+  }
+
+  .hero-tl-node strong {
+    font-size: 0.82rem;
+  }
+
+  .hero-tl-node p {
+    font-size: 0.7rem;
+  }
+
+  .hero-scroll-cue {
+    display: none;
+  }
+
+  .section-heading {
+    gap: 0.75rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.55rem, 8vw, 2.1rem);
+  }
+
+  .section-heading > p,
+  .lead,
+  .rq-brief,
+  .takeaway p,
+  .flow-step p,
+  .glance-item span {
+    font-size: 0.92rem;
+  }
+
+  .narrative,
+  .flow,
+  .rq-card,
+  .visual-panel {
+    padding: 1rem;
+  }
+
+  .glance-list,
+  .flow-steps,
+  .rq-stack,
+  .fact-grid,
+  .chip-row {
+    gap: 0.6rem;
+  }
+
+  .glance-item,
+  .fact-row,
+  .takeaway,
+  .flow-step {
+    padding: 0.8rem 0.85rem;
+  }
+
+  .flow-step {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .flow-badge {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .rq-card h3 {
+    font-size: clamp(1.45rem, 7.5vw, 1.95rem);
+  }
+
+  .rq-question {
+    font-size: 0.95rem;
+  }
+
+  .chip {
+    padding: 0.42rem 0.65rem;
+    font-size: 0.78rem;
+  }
+
+  .takeaway {
+    border-left-width: 0.24rem;
+  }
+
+  .visual-panel {
+    min-height: 15rem;
+    padding: 0.95rem;
+  }
+
+  .bar-label strong,
+  .fact-value {
+    font-size: 0.88rem;
+  }
+
+  .bar-label span,
+  .bar-value,
+  .survey-footnote {
+    font-size: 0.76rem;
+  }
+
+  .drift-year-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 0.5rem;
+  }
+
+  .drift-year {
+    font-size: 0.68rem;
+  }
+
+  .state-problem-card,
+  .state-formulation-node,
+  .state-decode-card,
+  .tokenizer-card,
+  .sofai-stage,
+  .sofai-result-card,
+  .application-card,
+  .prudent-card,
+  .safegen-stat,
+  .committee-card {
+    padding: 0.9rem;
+  }
+
+  .footer-inner {
+    gap: 0.4rem;
+  }
+
+  .footer-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 0.95rem;
+  }
+}
+
+@media (max-height: 860px) and (min-width: 541px) {
   .hero-headline {
     font-size: clamp(2.45rem, 6.2vw, 4.75rem);
   }
@@ -4140,7 +4406,7 @@ code {
   }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 740px) and (min-width: 541px) {
   .brand-mark {
     width: 2.35rem;
     height: 2.35rem;
