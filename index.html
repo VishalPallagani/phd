@@ -5,19 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="PhD dissertation website for Vishal Pallagani's research on generalized planning using language models, neuro-symbolic methods, and real-world applications." />
-  <title>Vishal Pallagani | Generalized Planning Using Language Models</title>
+    content="Landing page for Vishal Pallagani's PhD dissertation, featuring the March 26, 2026 defense milestone, dissertation overview, committee, and defense gallery." />
+  <title>Vishal Pallagani | PhD Dissertation</title>
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2316324f'/%3E%3Cpath d='M18 18h10l8 18 8-18h10L38 50h-12z' fill='%23f5f0e7'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body class="home-page">
   <div class="page-shell">
     <div class="ambient-grid" aria-hidden="true"></div>
     <header class="site-header">
@@ -33,998 +33,204 @@
         Menu
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
-        <a href="#overview">Overview</a>
-        <a href="#questions">Research Questions</a>
-        <a href="#committee">Committee</a>
+        <a href="research-questions.html">Research Questions</a>
       </nav>
     </header>
+
     <main id="top">
-      <section class="hero" id="hero-section">
-        <canvas id="hero-mesh" aria-hidden="true"></canvas>
-        <div class="hero-inner">
-          <div class="hero-copy">
-            <p class="hero-eyebrow">
+      <section class="hero hero-refined" id="hero-section">
+        <div class="hero-inner hero-refined-inner">
+          <div class="hero-title-panel panel">
+            <p class="hero-eyebrow hero-eyebrow-refined">
               <span class="hero-eyebrow-line" aria-hidden="true"></span>
-              PhD Dissertation
-              <span class="hero-eyebrow-dot" aria-hidden="true"></span>
-              University of South Carolina
+              PhD Dissertation Defense
             </p>
-            <h1 class="hero-headline">
-              <span class="hero-word hero-word-1">Generalized</span>
-              <span class="hero-word hero-word-2">Planning</span>
-              <span class="hero-word hero-word-3">Using</span>
-              <span class="hero-word hero-word-4">Language</span>
-              <span class="hero-word hero-word-5">Models</span>
+            <p class="hero-institution">University of South Carolina</p>
+            <h1 class="hero-refined-title">
+              <span class="hero-refined-line">Generalized Planning</span>
+              <span class="hero-refined-line">Using Language Models</span>
+              <span class="hero-refined-subtitle">and Its Applications</span>
             </h1>
-            <p class="hero-subtitle">and Its Applications</p>
-            <p class="hero-description">
-              This dissertation explores how language models can support automated planning
-              without sacrificing correctness, generalization, or practical usefulness.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-secondary" href="#questions">Research questions</a>
+            <div class="hero-meta-stack">
+              <p class="hero-date-line">
+                <span class="hero-date-label">Defense Date</span>
+                <span class="hero-date-value">March 26, 2026</span>
+              </p>
+              <p class="hero-name">Vishal Pallagani</p>
+              <p class="hero-role-line">PhD in Computer Science, University of South Carolina</p>
+            </div>
+            <div class="hero-fact-row">
+              <span class="hero-fact">Five research questions</span>
+              <span class="hero-fact">Language models and planning</span>
+              <span class="hero-fact">Neuro-symbolic AI</span>
+            </div>
+            <div class="hero-actions hero-actions-refined">
+              <a class="button button-primary" href="research-questions.html">Research Questions</a>
+              <a class="button button-secondary" href="#committee">Committee</a>
               <a class="button button-secondary"
                 href="https://docs.google.com/presentation/d/16_v1ZUR5Q1cwCLThZIlaUsHVXcTkjCGpHNDgqr-wP4o/edit?usp=sharing"
-                target="_blank" rel="noopener noreferrer">
-                Slides
-              </a>
+                target="_blank" rel="noopener noreferrer">Slides</a>
             </div>
           </div>
-          <div class="hero-timeline" aria-label="Research map">
-            <div class="hero-timeline-track" aria-hidden="true">
-              <span class="hero-timeline-line"></span>
-              <span class="hero-timeline-glow"></span>
+          <article class="hero-gallery-card gallery-slider panel reveal" data-gallery id="gallery">
+            <div class="gallery-viewport">
+              <div class="gallery-track">
+                <figure class="gallery-slide">
+                  <img src="images/slide2.jpg"
+                    alt="Vishal Pallagani presenting his dissertation defense in a classroom on March 26, 2026."
+                    loading="eager" />
+                  <figcaption>Defense presentation.</figcaption>
+                </figure>
+                <figure class="gallery-slide">
+                  <img src="images/slide_1.jpg"
+                    alt="Vishal Pallagani posing after the defense with attendees in the room and remote participants on screen."
+                    loading="lazy" />
+                  <figcaption>Post-defense photo.</figcaption>
+                </figure>
+                <figure class="gallery-slide">
+                  <img src="images/Vishal-PhD-cake.jpg"
+                    alt="Vishal Pallagani celebrating after the dissertation defense."
+                    loading="lazy" />
+                  <figcaption>Celebration.</figcaption>
+                </figure>
+              </div>
             </div>
-            <div class="hero-timeline-nodes">
-              <article class="hero-tl-node hero-tl-node-1">
-                <span class="hero-tl-dot" aria-hidden="true"></span>
-                <span class="hero-tl-id">RQ1</span>
-                <strong>Characterization</strong>
-                <p>Survey & taxonomy</p>
-              </article>
-              <article class="hero-tl-node hero-tl-node-2">
-                <span class="hero-tl-dot" aria-hidden="true"></span>
-                <span class="hero-tl-id">RQ2</span>
-                <strong>Specialization</strong>
-                <p>Valid plan generation</p>
-              </article>
-              <article class="hero-tl-node hero-tl-node-3">
-                <span class="hero-tl-dot" aria-hidden="true"></span>
-                <span class="hero-tl-id">RQ3</span>
-                <strong>Modeling</strong>
-                <p>State-centric planner</p>
-              </article>
-              <article class="hero-tl-node hero-tl-node-4">
-                <span class="hero-tl-dot" aria-hidden="true"></span>
-                <span class="hero-tl-id">RQ4</span>
-                <strong>Integration</strong>
-                <p>Neuro-symbolic loop</p>
-              </article>
-              <article class="hero-tl-node hero-tl-node-5">
-                <span class="hero-tl-dot" aria-hidden="true"></span>
-                <span class="hero-tl-id">RQ5</span>
-                <strong>Application</strong>
-                <p>Dialog & manufacturing</p>
-              </article>
+            <div class="gallery-controls">
+              <button class="gallery-control" type="button" data-gallery-prev aria-label="Previous slide">Prev</button>
+              <div class="gallery-dots" aria-label="Gallery slide navigation">
+                <button class="gallery-dot" type="button" data-gallery-dot="0" aria-label="Go to slide 1"></button>
+                <button class="gallery-dot" type="button" data-gallery-dot="1" aria-label="Go to slide 2"></button>
+                <button class="gallery-dot" type="button" data-gallery-dot="2" aria-label="Go to slide 3"></button>
+              </div>
+              <button class="gallery-control" type="button" data-gallery-next aria-label="Next slide">Next</button>
+              <span class="gallery-counter" data-gallery-counter>01 / 03</span>
             </div>
-          </div>
-          <div class="hero-scroll-cue" aria-hidden="true">
-            <span></span>
-          </div>
+          </article>
         </div>
       </section>
 
       <section class="section" id="overview">
         <div class="section-heading reveal">
           <div>
-            <p class="eyebrow">Overview</p>
-            <h2>Dissertation overview</h2>
+            <p class="eyebrow">Dissertation Overview</p>
+            <h2>Overview</h2>
           </div>
           <p>
-            The dissertation is organized around five technical questions covering characterization,
-            validity analysis, model design, neuro-symbolic integration, and evaluation on real-world domains.
+            A dissertation-scale summary of the problem formulation, architectural choices, and empirical findings.
           </p>
         </div>
 
         <div class="overview-grid">
           <article class="panel narrative reveal">
             <p class="lead">
-              Classical automated planning provides formal semantics, explicit state representations, and
-              correctness criteria, but it depends on structured domain models and search procedures that are
-              difficult to scale to open-ended inputs. Large language models provide broad priors and flexible
-              sequence modeling, but unconstrained generation does not guarantee executability, validity, or
-              goal satisfaction.
+              The central claim of the dissertation is that language-model-based planning should be formulated as a
+              constrained computational problem over explicit symbolic structure rather than as unconstrained
+              autoregressive text generation.
             </p>
             <p>
-              This dissertation studies how language models can be incorporated into planning systems without
-              discarding the formal structure needed for reliable plan generation. The technical progression
-              moves from systematic characterization of the literature, to empirical analysis of validity
-              failures, to state-centric model design, to neuro-symbolic planning architectures, and finally
-              to evaluation on real-world domains.
+              Accordingly, the work combines taxonomy construction, controlled benchmarking, state-centric prediction,
+              graph-based representations, symbolic successor validation, and metacognitive routing to identify where
+              learned components are beneficial and where algorithmic structure is necessary.
             </p>
             <div class="glance-list">
               <div class="glance-item">
                 <strong>Problem setting</strong>
-                <span>Unconstrained LM generation is expressive, but it does not reliably satisfy action semantics, plan
-                  validity, or out-of-domain generalization requirements.</span>
+                <span>Generalized planning is treated as reasoning over state transitions, validity constraints, and
+                  transfer beyond the training distribution.</span>
               </div>
               <div class="glance-item">
-                <strong>Methodology</strong>
-                <span>Combine systematic review, benchmark-based evaluation, state-transition modeling, graph
-                  tokenization, and symbolic verification in hybrid planning pipelines.</span>
+                <strong>Architectural principle</strong>
+                <span>Language models act as proposers, predictors, or representational components, while symbolic
+                  modules provide verification, repair, search, and execution semantics.</span>
               </div>
               <div class="glance-item">
-                <strong>Technical outcome</strong>
-                <span>Establish a taxonomy of LM use in planning, quantify validity limitations, develop state-centric
-                  planning models, and evaluate neuro-symbolic methods on real-world domains.</span>
+                <strong>Detailed structure</strong>
+                <span><a class="overview-link" href="research-questions.html">View the full research questions and
+                    chapter-level contributions.</a></span>
               </div>
             </div>
           </article>
 
-          <article class="panel flow reveal">
-            <p class="visual-tag">Research arc</p>
-            <div class="flow-steps">
-              <div class="flow-step">
-                <span class="flow-badge">1</span>
-                <div>
-                  <strong>Characterize LM-based planning</strong>
-                  <p>Systematically review 126 papers and identify functional roles, category structure, and open
-                    technical limitations.</p>
-                </div>
+          <article class="panel flow reveal overview-synthesis-panel">
+            <p class="visual-tag">Technical TL;DR</p>
+            <div class="glance-list overview-glance-list">
+              <div class="glance-item">
+                <strong>Problem formulation</strong>
+                <span>Standalone language-model generation lacks guarantees on plan validity, executability, and
+                  systematic generalization across planning domains.</span>
               </div>
-              <div class="flow-step">
-                <span class="flow-badge">2</span>
-                <div>
-                  <strong>Quantify validity and generalization</strong>
-                  <p>Benchmark pretrained and fine-tuned models on benchmark planning domains to measure valid plan
-                    generation and cross-domain transfer.</p>
-                </div>
+              <div class="glance-item">
+                <strong>Systems thesis</strong>
+                <span>More reliable performance emerges when learned components are embedded inside structured planning
+                  pipelines with explicit states, constrained decoding, symbolic verification, and recovery
+                  mechanisms.</span>
               </div>
-              <div class="flow-step">
-                <span class="flow-badge">3</span>
-                <div>
-                  <strong>Model state transitions directly</strong>
-                  <p>Replace raw action-sequence generation with state-centric prediction and search-based plan
-                    extraction.</p>
-                </div>
+              <div class="glance-item">
+                <strong>Methodological contribution</strong>
+                <span>The dissertation moves from descriptive analysis to constructive model and architecture design,
+                  then evaluates those designs in both benchmark and application settings.</span>
               </div>
-              <div class="flow-step">
-                <span class="flow-badge">4</span>
-                <div>
-                  <strong>Integrate neural and symbolic planning</strong>
-                  <p>Use symbolic validation and repair signals inside an iterative neuro-symbolic planning loop.</p>
-                </div>
-              </div>
-              <div class="flow-step">
-                <span class="flow-badge">5</span>
-                <div>
-                  <strong>Evaluate on real-world domains</strong>
-                  <p>Study the resulting methods in dialog systems and adaptive manufacturing replanning settings.</p>
-                </div>
+              <div class="glance-item">
+                <strong>Overall conclusion</strong>
+                <span>Hybrid neuro-symbolic planning architectures are more dependable than pure generation pipelines
+                  when correctness, robustness, and domain transfer are first-class requirements.</span>
               </div>
             </div>
           </article>
         </div>
-      </section>
-      <section class="section" id="questions">
-        <div class="section-heading reveal">
-          <div>
-            <p class="eyebrow">Research Questions</p>
-            <h2>Five research questions</h2>
+
+        <article class="panel flow reveal overview-arc-panel">
+          <p class="visual-tag">Research Arc</p>
+          <div class="flow-steps overview-arc-steps">
+            <div class="flow-step">
+              <span class="flow-badge">1</span>
+              <div>
+                <strong>Characterization</strong>
+                <p>Construct a taxonomy of functional language-model roles in planning and analyze category drift across
+                  the literature.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <span class="flow-badge">2</span>
+              <div>
+                <strong>Specialization</strong>
+                <p>Evaluate valid plan generation and characterize the limitations of prompting and fine-tuning under
+                  distribution shift.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <span class="flow-badge">3</span>
+              <div>
+                <strong>State-centric modeling</strong>
+                <p>Replace action-sequence generation with successor-state prediction and symbolic successor
+                  selection.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <span class="flow-badge">4</span>
+              <div>
+                <strong>Neuro-symbolic integration</strong>
+                <p>Integrate learned proposers with symbolic verification, repair, and metacognitive control.</p>
+              </div>
+            </div>
+            <div class="flow-step">
+              <span class="flow-badge">5</span>
+              <div>
+                <strong>Applications</strong>
+                <p>Evaluate the resulting methods in dialog systems, trustworthy assistance, and adaptive
+                  manufacturing.</p>
+              </div>
+            </div>
           </div>
-          <p>
-            Together, these questions trace the path from understanding the literature to building planning
-            systems that are both expressive and dependable.
-          </p>
-        </div>
-
-        <div class="rq-stack">
-          <article class="rq-card reveal" id="rq1" style="--accent: #0f766e; --accent-soft: rgba(15, 118, 110, 0.14);">
-            <div class="rq-copy">
-              <p class="rq-kicker">RQ1</p>
-              <h3>Characterization</h3>
-              <p class="rq-question">How are language models being used for automated planning?</p>
-              <p class="rq-brief">
-                This chapter constructs a structured characterization of the role of language models in
-                automated planning. The contribution is twofold: a manual taxonomy built from the
-                literature through November 2023, and a semi-automated framework for extending that
-                taxonomy and analyzing how the field changes over time.
-              </p>
-              <div class="fact-grid">
-                <div class="fact-row">
-                  <span class="fact-label">Question</span>
-                  <span class="fact-value">What functional roles are language models playing within planning
-                    pipelines?</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Method</span>
-                  <span class="fact-value">Manually categorize 126 papers into eight core categories, then update the
-                    analysis with a semi-automated, human-augmented pipeline over 47 newer papers.</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Finding</span>
-                  <span class="fact-value">Plan generation is the dominant category in the initial taxonomy, while later
-                    updates show category drift and introduce goal decomposition and replanning.</span>
-                </div>
-              </div>
-              <div class="chip-row">
-                <span class="chip">126-paper taxonomy</span>
-                <span class="chip">8 core categories</span>
-                <span class="chip">47-paper update</span>
-              </div>
-              <div class="takeaway">
-                <strong>Main takeaway</strong>
-                <p>Language models are not used in planning in a single uniform way; they occupy multiple functional
-                  roles, and those roles are shifting as the community moves from end-to-end plan generation toward more
-                  structured and tool-supported uses.</p>
-              </div>
-            </div>
-
-            <div class="visual-panel survey-visual">
-              <p class="visual-title">Category drift</p>
-              <div class="taxonomy-drift">
-                <div class="drift-timeline">
-                  <div class="drift-timeline-track" aria-hidden="true">
-                    <span class="drift-timeline-line"></span>
-                    <span class="drift-timeline-pulse"></span>
-                  </div>
-                  <div class="drift-year-row">
-                    <span class="drift-year">2020</span>
-                    <span class="drift-year">2021</span>
-                    <span class="drift-year drift-year-active">2022</span>
-                    <span class="drift-year drift-year-active">2023</span>
-                    <span class="drift-year drift-year-active">2024</span>
-                  </div>
-                </div>
-                <div class="drift-grid">
-                  <article class="drift-card drift-card-down">
-                    <span class="drift-badge">Down</span>
-                    <strong>Plan generation</strong>
-                    <p>Still dominant in D2, but its relative share decreases.</p>
-                  </article>
-                  <article class="drift-card drift-card-down">
-                    <span class="drift-badge">Down</span>
-                    <strong>Language translation</strong>
-                    <p>Declines as translation is treated as necessary but insufficient for planning.</p>
-                  </article>
-                  <article class="drift-card drift-card-down">
-                    <span class="drift-badge">Down</span>
-                    <strong>Interactive planning</strong>
-                    <p>Decreases as end-to-end interactive use remains difficult to scale reliably.</p>
-                  </article>
-                  <article class="drift-card drift-card-up">
-                    <span class="drift-badge">Up</span>
-                    <strong>Model construction</strong>
-                    <p>Grows and becomes the second-highest category in D2.</p>
-                  </article>
-                  <article class="drift-card drift-card-stable">
-                    <span class="drift-badge">Stable</span>
-                    <strong>Heuristics optimization</strong>
-                    <p>Maintains a stable presence across the two datasets.</p>
-                  </article>
-                  <article class="drift-card drift-card-up">
-                    <span class="drift-badge">Up</span>
-                    <strong>Tool integration</strong>
-                    <p>Increases and reaches the third-highest share in D2.</p>
-                  </article>
-                  <article class="drift-card drift-card-down">
-                    <span class="drift-badge">Down</span>
-                    <strong>Brain-inspired planning</strong>
-                    <p>Declines as work shifts toward concrete neuro-symbolic architectures.</p>
-                  </article>
-                  <article class="drift-card drift-card-down">
-                    <span class="drift-badge">Down</span>
-                    <strong>Multi-agent planning</strong>
-                    <p>Decreases as coordination reliability remains a major challenge.</p>
-                  </article>
-                  <article class="drift-card drift-card-new">
-                    <span class="drift-badge">New</span>
-                    <strong>Goal decomposition</strong>
-                    <p>Emerges in D2 with 4 papers focused on subgoal structuring.</p>
-                  </article>
-                  <article class="drift-card drift-card-new">
-                    <span class="drift-badge">New</span>
-                    <strong>Replanning</strong>
-                    <p>Emerges in D2 with 1 paper centered on plan adaptation after failure.</p>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="rq-card reveal" id="rq2" style="--accent: #c15c3f; --accent-soft: rgba(193, 92, 63, 0.14);">
-            <div class="rq-copy">
-              <p class="rq-kicker">RQ2</p>
-              <h3>Specialization</h3>
-              <p class="rq-question">How can language models be used for effective plan generation?</p>
-              <p class="rq-brief">
-                This chapter conducts a controlled evaluation of plan generation across language-model
-                architectures, input representations, and adaptation strategies. The study compares
-                pretrained and fine-tuned models on benchmark planning domains to identify where
-                specialization helps and where generalization still fails.
-              </p>
-              <div class="fact-grid">
-                <div class="fact-row">
-                  <span class="fact-label">Question</span>
-                  <span class="fact-value">How do pretrained and specialized language models behave on classical
-                    plan-generation tasks?</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Method</span>
-                  <span class="fact-value">Evaluate decoder-only, encoder-decoder, and encoder-only models on six IPC
-                    domains using natural language, PDDL, and compact representations under zero-shot, one-shot,
-                    chain-of-thought, and fine-tuning settings.</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Finding</span>
-                  <span class="fact-value">Pretrained models show limited valid plan generation; fine-tuned CodeT5
-                    improves strongly in-distribution, but neither evaluated model produces valid plans on unseen
-                    domains.</span>
-                </div>
-              </div>
-              <div class="chip-row">
-                <span class="chip">6 IPC domains</span>
-                <span class="chip">3 input representations</span>
-                <span class="chip">4 adaptation settings</span>
-              </div>
-              <div class="takeaway">
-                <strong>Main takeaway</strong>
-                <p>Fine-tuning improves performance within the training distribution, but effective specialization still
-                  requires planning-oriented representations and architectures that generalize beyond memorized domain
-                  patterns.</p>
-              </div>
-            </div>
-
-            <div class="visual-panel plan-visual">
-              <p class="visual-title">Action-centric plan generation</p>
-              <div class="action-centric-grid">
-                <div class="state-column">
-                  <article class="planning-state-card">
-                    <span class="planning-state-label">Initial state</span>
-                    <div class="mini-state-scene mini-state-initial" aria-hidden="true">
-                      <div class="mini-table"></div>
-                      <div class="mini-block mini-block-a">A</div>
-                      <div class="mini-block mini-block-b">B</div>
-                    </div>
-                    <p>(ontable a) (ontable b) (clear a) (clear b) (handempty)</p>
-                  </article>
-                  <article class="planning-state-card">
-                    <span class="planning-state-label">Goal state</span>
-                    <div class="mini-state-scene mini-state-goal" aria-hidden="true">
-                      <div class="mini-table"></div>
-                      <div class="mini-block mini-block-b">B</div>
-                      <div class="mini-block mini-block-a mini-block-a-stacked">A</div>
-                    </div>
-                    <p>(on a b)</p>
-                  </article>
-                </div>
-
-                <div class="autoreg-card">
-                  <span class="autoreg-badge">Action-centric planning</span>
-                  <strong>Autoregressive LLM</strong>
-                  <p>Conditioned on the initial and goal state, the model emits plan tokens left to right and assigns a
-                    next-token probability at each decoding step.</p>
-                  <code class="autoreg-formula">P(token_t | s_init, s_goal, token_{&lt;t})</code>
-                  <div class="token-probability-list">
-                    <div class="token-probability token-probability-1">
-                      <code>pickup</code>
-                      <div class="token-probability-bar"><span style="--value: 78%"></span></div>
-                      <span>0.78</span>
-                    </div>
-                    <div class="token-probability token-probability-2">
-                      <code>a</code>
-                      <div class="token-probability-bar"><span style="--value: 92%"></span></div>
-                      <span>0.92</span>
-                    </div>
-                    <div class="token-probability token-probability-3">
-                      <code>stack</code>
-                      <div class="token-probability-bar"><span style="--value: 73%"></span></div>
-                      <span>0.73</span>
-                    </div>
-                    <div class="token-probability token-probability-4">
-                      <code>a,b</code>
-                      <div class="token-probability-bar"><span style="--value: 89%"></span></div>
-                      <span>0.89</span>
-                    </div>
-                  </div>
-                  <div class="generated-plan-strip">
-                    <span class="generated-plan-chip generated-plan-chip-1">pickup(a)</span>
-                    <span class="generated-plan-chip generated-plan-chip-2">stack(a,b)</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="execution-card">
-                <div class="execution-header">
-                  <strong>PDDL execution trace</strong>
-                  <div class="execution-sequence">
-                    <code>pickup(a)</code>
-                    <span class="execution-arrow">&rarr;</span>
-                    <code>stack(a,b)</code>
-                  </div>
-                </div>
-                <div class="execution-scene" aria-hidden="true">
-                  <div class="execution-grid"></div>
-                  <div class="execution-table"></div>
-                  <div class="execution-gripper"></div>
-                  <div class="execution-block execution-block-a">A</div>
-                  <div class="execution-block execution-block-b">B</div>
-                </div>
-                <div class="execution-steps">
-                  <span class="execution-step execution-step-1"><span
-                      class="execution-step-index">1</span><code>pickup(a)</code></span>
-                  <span class="execution-step execution-step-2"><span
-                      class="execution-step-index">2</span><code>stack(a,b)</code></span>
-                </div>
-              </div>
-
-              <div class="rq2-metric-grid">
-                <article class="rq2-metric-card">
-                  <span class="rq2-metric-label">Zero-shot</span>
-                  <strong>Limited</strong>
-                  <p>Pretrained models remain weak in zero-shot settings; the best vanilla result in the chapter is
-                    still only 43.52% under one-shot PDDL prompting.</p>
-                </article>
-                <article class="rq2-metric-card">
-                  <span class="rq2-metric-label">Fine-tuned</span>
-                  <strong>97.57%</strong>
-                  <p>Fine-tuned CodeT5 with compact input achieves 97.57% satisficing plans, of which 86.21% are
-                    optimal, on in-distribution problems.</p>
-                </article>
-                <article class="rq2-metric-card rq2-metric-card-generalization">
-                  <span class="rq2-metric-label">Generalization</span>
-                  <strong>0 valid</strong>
-                  <p>No valid plans are produced on unseen domains such as childsnack, depots, and satellite.</p>
-                </article>
-              </div>
-            </div>
-          </article>
-
-          <article class="rq-card reveal" id="rq3" style="--accent: #186d73; --accent-soft: rgba(24, 109, 115, 0.14);">
-            <div class="rq-copy">
-              <p class="rq-kicker">RQ3</p>
-              <h3>Modeling</h3>
-              <p class="rq-question">How can compact foundation models be trained from scratch to support plan
-                generation?</p>
-              <p class="rq-brief">
-                This chapter reformulates generalized planning as transition-model learning. Instead of
-                predicting action tokens autoregressively, a compact model predicts successor-state
-                embeddings from explicit symbolic states and goals, then recovers executable actions through
-                symbolic successor verification.
-              </p>
-              <div class="fact-grid">
-                <div class="fact-row">
-                  <span class="fact-label">Question</span>
-                  <span class="fact-value">Can generalized planning be learned as state-to-state transition prediction
-                    instead of autoregressive action generation?</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Method</span>
-                  <span class="fact-value">Encode each state-goal pair as an Instance Learning Graph (ILG), tokenize it
-                    with WL, Shortest Path, GraphBPE, or SimHash, learn residual transitions with LSTM or XGBoost, and
-                    decode actions by nearest valid successor matching in Succ(s_t).</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Finding</span>
-                  <span class="fact-value">Compact 1.2M-parameter state-centric models achieve strong size extrapolation
-                    when the tokenizer matches the domain structure: WL+XGBoost+ reaches 45.0% on Blocksworld and 87.2%
-                    on VisitAll.</span>
-                </div>
-              </div>
-              <div class="chip-row">
-                <span class="chip">4 IPC domains</span>
-                <span class="chip">4 graph tokenizers</span>
-                <span class="chip">1.2M parameters</span>
-              </div>
-              <div class="takeaway">
-                <strong>Main takeaway</strong>
-                <p>Generalization comes from the representation as much as the model: explicit symbolic states, ILGs,
-                  and the right tokenizer reduce state drift and let compact transition models extrapolate beyond the
-                  training object range.</p>
-              </div>
-            </div>
-
-            <div class="visual-panel state-visual">
-              <p class="visual-title">State-centric transition learning</p>
-              <div class="state-centric-grid">
-                <div class="state-centric-board">
-                  <div class="state-problem-pair">
-                    <article class="planning-state-card state-problem-card">
-                      <span class="planning-state-label">Current state s_t</span>
-                      <div class="mini-state-scene" aria-hidden="true">
-                        <div class="mini-table"></div>
-                        <div class="mini-block mini-block-a">A</div>
-                        <div class="mini-block mini-block-b">B</div>
-                      </div>
-                      <p>(ontable a) (ontable b) (clear a) (clear b) (handempty)</p>
-                    </article>
-                    <article class="planning-state-card state-problem-card">
-                      <span class="planning-state-label">Goal g</span>
-                      <div class="mini-state-scene" aria-hidden="true">
-                        <div class="mini-table"></div>
-                        <div class="mini-block mini-block-b">B</div>
-                        <div class="mini-block mini-block-a mini-block-a-stacked">A</div>
-                      </div>
-                      <p>(on a b)</p>
-                    </article>
-                  </div>
-
-                  <div class="state-formulation-strip">
-                    <article class="state-formulation-node">
-                      <strong>ILG encoder</strong>
-                      <code>&phi;(s_t, g)</code>
-                    </article>
-                    <article class="state-formulation-node state-formulation-node-accent">
-                      <strong>Residual transition model</strong>
-                      <code>v_t = &phi;(s_t) + f(&phi;(s_t), &phi;(g))</code>
-                    </article>
-                    <article class="state-formulation-node">
-                      <strong>Neuro-symbolic decoding</strong>
-                      <code>argmin s in Succ(s_t) ||&phi;(s) - v_t||_2</code>
-                    </article>
-                  </div>
-
-                  <div class="state-decode-grid">
-                    <article class="decode-card decode-card-step-1">
-                      <span class="decode-label">Step 1</span>
-                      <div class="state-rollout-scene state-rollout-scene-holding" aria-hidden="true">
-                        <div class="mini-table"></div>
-                        <div class="state-gripper"></div>
-                        <div class="mini-block mini-block-b">B</div>
-                        <div class="mini-block mini-block-a state-block-a-held">A</div>
-                      </div>
-                      <strong>Predict a valid successor state</strong>
-                      <p>From <code>s_0</code>, the model predicts an embedding for the next state and the decoder
-                        recovers <code>pickup(a)</code> by matching against valid successors.</p>
-                    </article>
-                    <article class="decode-card decode-card-step-2">
-                      <span class="decode-label">Step 2</span>
-                      <div class="state-rollout-scene state-rollout-scene-stacked" aria-hidden="true">
-                        <div class="mini-table"></div>
-                        <div class="mini-block mini-block-b">B</div>
-                        <div class="mini-block mini-block-a mini-block-a-stacked">A</div>
-                      </div>
-                      <strong>Keep the symbolic state explicit</strong>
-                      <p>At the next step, successor verification selects the state that supports
-                        <code>stack(a,b)</code>, so the rollout remains executable throughout.</p>
-                    </article>
-                  </div>
-                </div>
-
-                <aside class="ilg-card">
-                  <span class="ilg-badge">Instance learning graph</span>
-                  <strong>ILG for (s_t, g)</strong>
-                  <svg class="ilg-svg" viewBox="0 0 440 296" role="img"
-                    aria-label="Instance learning graph for Blocksworld state and goal">
-                    <path class="ilg-edge-line ilg-edge-line-1" d="M104 74 L168 122" />
-                    <path class="ilg-edge-line ilg-edge-line-2" d="M330 74 L230 122" />
-                    <path class="ilg-edge-line ilg-edge-line-3" d="M104 74 L150 186" />
-                    <path class="ilg-edge-line ilg-edge-line-4" d="M330 74 L248 186" />
-                    <path class="ilg-edge-line ilg-edge-line-5" d="M104 74 L184 244" />
-                    <path class="ilg-edge-line ilg-edge-line-6" d="M330 74 L204 244" />
-                    <rect class="ilg-node ilg-node-object" x="70" y="44" width="68" height="36" rx="14" />
-                    <rect class="ilg-node ilg-node-object" x="296" y="44" width="68" height="36" rx="14" />
-                    <rect class="ilg-node ilg-node-state" x="138" y="108" width="122" height="34" rx="14" />
-                    <rect class="ilg-node ilg-node-state" x="118" y="172" width="162" height="34" rx="14" />
-                    <rect class="ilg-node ilg-node-goal" x="148" y="230" width="112" height="34" rx="14" />
-                    <circle class="ilg-node-dot" cx="104" cy="62" r="5" />
-                    <circle class="ilg-node-dot" cx="330" cy="62" r="5" />
-                    <circle class="ilg-node-dot" cx="198" cy="125" r="5" />
-                    <circle class="ilg-node-dot" cx="198" cy="189" r="5" />
-                    <circle class="ilg-node-dot" cx="204" cy="247" r="5" />
-                    <text x="104" y="67">obj:a</text>
-                    <text x="330" y="67">obj:b</text>
-                    <text x="199" y="129">state: ontable</text>
-                    <text x="199" y="193">state: clear</text>
-                    <text x="204" y="251">goal: on(a,b)</text>
-                  </svg>
-                  <p>Each state-goal pair is encoded as an ILG whose nodes represent objects, state propositions, and
-                    goal conditions. Edges connect proposition nodes to their argument objects with position labels.</p>
-                  <div class="ilg-legend">
-                    <span class="ilg-legend-chip">objects</span>
-                    <span class="ilg-legend-chip">state propositions</span>
-                    <span class="ilg-legend-chip">goal propositions</span>
-                  </div>
-                </aside>
-              </div>
-
-              <div class="tokenizer-grid">
-                <article class="tokenizer-card tokenizer-card-wl">
-                  <span class="tokenizer-name">WL</span>
-                  <strong>Local color refinement</strong>
-                  <p>Permutation- and size-invariant; best when local neighborhoods determine transition dynamics.</p>
-                  <div class="tokenizer-metric">
-                    <span>Blocksworld best ext.</span>
-                    <strong>45.0%</strong>
-                  </div>
-                </article>
-                <article class="tokenizer-card tokenizer-card-sp">
-                  <span class="tokenizer-name">Shortest Path</span>
-                  <strong>Global connectivity</strong>
-                  <p>Captures reachability structure directly; strongest and most consistent on VisitAll.</p>
-                  <div class="tokenizer-metric">
-                    <span>VisitAll best ext.</span>
-                    <strong>87.2%</strong>
-                  </div>
-                </article>
-                <article class="tokenizer-card tokenizer-card-bpe">
-                  <span class="tokenizer-name">GraphBPE</span>
-                  <strong>Data-driven graph motifs</strong>
-                  <p>Learns recurring ILG token patterns from DFS linearizations; best state-centric tokenizer on
-                    Gripper.</p>
-                  <div class="tokenizer-metric">
-                    <span>Gripper best ext.</span>
-                    <strong>43.8%</strong>
-                  </div>
-                </article>
-                <article class="tokenizer-card tokenizer-card-sh">
-                  <span class="tokenizer-name">SimHash</span>
-                  <strong>Random projection hashing</strong>
-                  <p>Fast and permutation-invariant, but lossy; retains some transport structure only with LSTM
-                    decoding.</p>
-                  <div class="tokenizer-metric">
-                    <span>Gripper best ext.</span>
-                    <strong>31.3%</strong>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </article>
-
-          <article class="rq-card reveal" id="rq4" style="--accent: #8b6c1a; --accent-soft: rgba(139, 108, 26, 0.14);">
-            <div class="rq-copy">
-              <p class="rq-kicker">RQ4</p>
-              <h3>Integration</h3>
-              <p class="rq-question">How can language models be used along with symbolic methods to achieve robust plan
-                generation via neurosymbolic architectures?</p>
-              <p class="rq-brief">
-                This chapter instantiates Plan-SOFAI, a Slow and Fast AI architecture for classical planning.
-                Fast System-1 solvers propose candidate plans, a metacognitive controller decides whether
-                they are trustworthy enough to use, and slow symbolic System-2 planners verify, repair, or
-                replace them when needed.
-              </p>
-              <div class="fact-grid">
-                <div class="fact-row">
-                  <span class="fact-label">Question</span>
-                  <span class="fact-value">How can language models be used along with symbolic methods to achieve robust
-                    plan generation via neurosymbolic architectures?</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Method</span>
-                  <span class="fact-value">Instantiate S1 with Plansformer and case-based plan selectors, S2 with Fast
-                    Downward and LPG, and a metacognitive controller that routes by confidence, accumulated experience,
-                    risk aversion, and estimated time cost.</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Finding</span>
-                  <span class="fact-value">PF is the strongest standalone S1 solver at 80.4% valid and 77.2% optimal
-                    plans, but neurosymbolic embodiments are substantially more robust: PS-LPG solves 100% of 500
-                    benchmark problems and PS-MIX solves 98% with 89.0% optimal plans.</span>
-                </div>
-              </div>
-              <div class="chip-row">
-                <span class="chip">500 benchmark problems</span>
-                <span class="chip">5 planning domains</span>
-                <span class="chip">S1 + MC + S2</span>
-              </div>
-              <div class="takeaway">
-                <strong>Main takeaway</strong>
-                <p>Language models are most useful as fast proposers. Symbolic planners provide the correction and
-                  repair layer, and metacognition decides when to trust the proposal and when to escalate.</p>
-              </div>
-            </div>
-
-            <div class="visual-panel sofai-visual">
-              <p class="visual-title">Plan-SOFAI: thinking fast and slow in planning</p>
-              <div class="sofai-pipeline">
-                <article class="sofai-stage sofai-stage-input">
-                  <span class="sofai-stage-tag">Input</span>
-                  <strong>Problem + domain</strong>
-                  <p>The Model of the World provides the PDDL environment, instance, and time budget.</p>
-                </article>
-                <article class="sofai-stage sofai-stage-s1">
-                  <span class="sofai-stage-tag">System 1</span>
-                  <strong>Fast proposer</strong>
-                  <p>Plansformer and case-based selectors return a quick plan proposal and confidence score.</p>
-                  <div class="sofai-mini-row">
-                    <span class="sofai-mini-chip">PF</span>
-                    <span class="sofai-mini-chip">LEV/JAC/CB</span>
-                  </div>
-                </article>
-                <article class="sofai-stage sofai-stage-mc">
-                  <span class="sofai-stage-tag">Metacognition</span>
-                  <strong>MC-1 / MC-2 routing</strong>
-                  <p>Confidence, experience, risk aversion, and estimated cost decide whether to accept, repair, or
-                    replan.</p>
-                  <div class="sofai-model-row">
-                    <span class="sofai-model-chip">world</span>
-                    <span class="sofai-model-chip">self</span>
-                    <span class="sofai-model-chip">others</span>
-                  </div>
-                </article>
-                <article class="sofai-stage sofai-stage-s2">
-                  <span class="sofai-stage-tag">System 2</span>
-                  <strong>Symbolic repair / solve</strong>
-                  <p>LPG repairs partial plans; FD solves from scratch when the S1 proposal is not usable.</p>
-                  <div class="sofai-mini-row">
-                    <span class="sofai-mini-chip">LPG</span>
-                    <span class="sofai-mini-chip">FD</span>
-                  </div>
-                </article>
-                <article class="sofai-stage sofai-stage-output">
-                  <span class="sofai-stage-tag">Output</span>
-                  <strong>Verified plan</strong>
-                  <p>Return an accepted or repaired plan only when correctness constraints are satisfied.</p>
-                </article>
-              </div>
-
-              <div class="sofai-results">
-                <article class="sofai-result-card">
-                  <span class="sofai-result-tag">Standalone S1</span>
-                  <strong>PF</strong>
-                  <div class="sofai-result-metric">
-                    <span>Valid plans</span>
-                    <strong>80.4%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 80.4%"></span></div>
-                  <div class="sofai-result-metric">
-                    <span>Optimal plans</span>
-                    <strong>77.2%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 77.2%"></span></div>
-                  <p>Fast and strong for a learned proposer, but still not reliable enough as a standalone planner.</p>
-                </article>
-                <article class="sofai-result-card sofai-result-card-primary">
-                  <span class="sofai-result-tag">Best coverage</span>
-                  <strong>PS-LPG</strong>
-                  <div class="sofai-result-metric">
-                    <span>Valid plans</span>
-                    <strong>100.0%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 100%"></span></div>
-                  <div class="sofai-result-metric">
-                    <span>Optimal plans</span>
-                    <strong>86.8%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 86.8%"></span></div>
-                  <p>Solves all 500 problems and reduces average plan length by 14% relative to LPG.</p>
-                </article>
-                <article class="sofai-result-card sofai-result-card-secondary">
-                  <span class="sofai-result-tag">Best tradeoff</span>
-                  <strong>PS-MIX</strong>
-                  <div class="sofai-result-metric">
-                    <span>Valid plans</span>
-                    <strong>98.0%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 98%"></span></div>
-                  <div class="sofai-result-metric">
-                    <span>Optimal plans</span>
-                    <strong>89.0%</strong>
-                  </div>
-                  <div class="sofai-result-bar"><span style="--value: 89%"></span></div>
-                  <p>The strongest overall balance between solve rate, plan quality, and runtime.</p>
-                </article>
-              </div>
-            </div>
-          </article>
-
-          <article class="rq-card reveal" id="rq5" style="--accent: #9a4d31; --accent-soft: rgba(154, 77, 49, 0.14);">
-            <div class="rq-copy">
-              <p class="rq-kicker">RQ5</p>
-              <h3>Application</h3>
-              <p class="rq-question">How do new generalized planners created with language models and symbolic
-                approaches perform in applications?</p>
-              <p class="rq-brief">
-                Chapter 7 evaluates the generalized planning methods developed earlier in three deployment
-                settings: dialog-based information retrieval, trustworthy conversational support for HIV/AIDS
-                information, and adaptive replanning in a stochastic rocket-assembly factory. The emphasis is
-                on whether these methods remain effective under ambiguity, safety constraints, and operational
-                disruptions rather than only on benchmark instances.
-              </p>
-              <div class="fact-grid">
-                <div class="fact-row">
-                  <span class="fact-label">Question</span>
-                  <span class="fact-value">Do generalized planners built from planning, language models, and symbolic or
-                    learning-based control transfer to real application domains?</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Method</span>
-                  <span class="fact-value">Study PRUDENT on UNSPSC and ICD-10, SafeGenChat on 47 UNAIDS HIV/AIDS FAQs
-                    with SOFAI-style metacognitive routing, and six reinforcement-learning architectures on a stochastic
-                    rocket-assembly MDP with <code>panomaly = 0.05</code>.</span>
-                </div>
-                <div class="fact-row">
-                  <span class="fact-label">Finding</span>
-                  <span class="fact-value">P+RL provides the strongest overall dialog performance, SafeGenChat routes
-                    sensitive queries to verified responses, and all learned manufacturing policies exceed 91% success
-                    with DQN, AVI, and ASNet reaching 100%.</span>
-                </div>
-              </div>
-              <div class="chip-row">
-                <span class="chip">UNSPSC + ICD-10</span>
-                <span class="chip">47 UNAIDS QA pairs</span>
-                <span class="chip">6 RL architectures</span>
-              </div>
-              <div class="takeaway">
-                <strong>Main takeaway</strong>
-                <p>Generalized planning remains effective in deployment when symbolic structure, metacognitive risk
-                  control, and adaptive replanning are matched to the application domain rather than relying on a
-                  standalone generator.</p>
-              </div>
-            </div>
-
-            <div class="visual-panel application-visual">
-              <p class="visual-title">Application deployment</p>
-              <div class="application-grid">
-                <article class="application-case prudent-case">
-                  <div class="application-case-head">
-                    <div>
-                      <span class="application-case-kicker">Collaborative assistants</span>
-                      <strong>PRUDENT</strong>
-                    </div>
-                    <span class="application-case-tag">UNSPSC / ICD-10</span>
-                  </div>
-                  <p class="application-case-copy">
-                    Planning and reinforcement learning are interleaved to resolve ambiguous user requests,
-                    select the appropriate hierarchy, and drive multi-turn retrieval over heterogeneous data
-                    sources.
-                  </p>
-                  <div class="prudent-flow">
-                    <div class="prudent-query">
-                      <span>Query</span>
-                      <code>Code for cholera</code>
-                    </div>
-                    <div class="prudent-path">
-                      <span class="prudent-node">Intent</span>
-                      <span class="prudent-node">Select ICD-10</span>
-                      <span class="prudent-node">Plan retrieval</span>
-                      <span class="prudent-node prudent-node-answer"><code>A00.0</code></span>
-                    </div>
-                  </div>
-                  <div class="prudent-strategies">
-                    <article class="strategy-card">
-                      <span class="strategy-label">P-P</span>
-                      <strong>11.1s avg</strong>
-                      <p>Accurate, but it requires manual data-source selection.</p>
-                    </article>
-                    <article class="strategy-card strategy-card-warning">
-                      <span class="strategy-label">P-RL</span>
-                      <strong>8.7s avg</strong>
-                      <p>Fastest, but incomplete on 4 of 9 evaluated queries.</p>
-                    </article>
-                    <article class="strategy-card strategy-card-best">
-                      <span class="strategy-label">P+RL</span>
-                      <strong>Best overall</strong>
-                      <p>Shortest task length with stronger task completion across both datasets.</p>
-                    </article>
-                  </div>
-                </article>
-
-                <article class="application-case safegen-case">
-                  <div class="application-case-head">
-                    <div>
-                      <span class="application-case-kicker">Trustworthy dialog</span>
-                      <strong>SafeGenChat</strong>
-                    </div>
-                    <span class="application-case-tag">SOFAI routing</span>
-                  </div>
-                  <p class="application-case-copy">
-                    Query risk, model confidence, and prior experience determine whether the system answers
-                    with a retrieved LLM response or escalates to a verified rule-based assistant.
-                  </p>
-                  <div class="safegen-pipeline">
-                    <div class="safegen-node safegen-node-query">User query</div>
-                    <div class="safegen-node safegen-node-risk">Risk + confidence</div>
-                    <div class="safegen-branches">
-                      <article class="safegen-branch safegen-branch-s1">
-                        <span class="safegen-branch-label">Low risk</span>
-                        <strong>System-1</strong>
-                        <p>Llama-3-8B with retrieved QA context</p>
-                      </article>
-                      <article class="safegen-branch safegen-branch-s2">
-                        <span class="safegen-branch-label">High risk</span>
-                        <strong>System-2</strong>
-                        <p>SafeChat policies and verified answers</p>
-                      </article>
-                    </div>
-                  </div>
-                  <div class="safegen-stat-grid">
-                    <div class="safe-stat">
-                      <strong>47</strong>
-                      <span>UNAIDS FAQ pairs</span>
-                    </div>
-                    <div class="safe-stat">
-                      <strong>43/47</strong>
-                      <span>non-harmful under both Granite Guardian conditions</span>
-                    </div>
-                    <div class="safe-stat">
-                      <strong>T1-T4</strong>
-                      <span>risk and confidence thresholds drive routing</span>
-                    </div>
-                  </div>
-                </article>
-
-                <article class="application-case factory-case">
-                  <div class="application-case-head">
-                    <div>
-                      <span class="application-case-kicker">Adaptive replanning</span>
-                      <strong>Stochastic rocket assembly</strong>
-                    </div>
-                    <span class="application-case-tag"><code>panomaly = 0.05</code></span>
-                  </div>
-                  <p class="application-case-copy">
-                    A discrete-time MDP models four robots, a conveyor, and four anomaly types. Learned
-                    policies recover through waiting, retries, and intervention actions without halting the line.
-                  </p>
-                  <div class="factory-layout">
-                    <div class="factory-floor">
-                      <div class="factory-rail">
-                        <span class="factory-stop">Start</span>
-                        <span class="factory-stop">Stop 1</span>
-                        <span class="factory-stop">Stop 2</span>
-                        <span class="factory-stop">Inspect</span>
-                        <div class="factory-tray">Tray</div>
-                      </div>
-                      <div class="factory-robot-row">
-                        <span class="factory-robot">r1</span>
-                        <span class="factory-robot factory-robot-alert">r2</span>
-                        <span class="factory-robot">r3</span>
-                        <span class="factory-robot">r4</span>
-                      </div>
-                      <div class="factory-anomaly-row">
-                        <span class="factory-anomaly">Overheat</span>
-                        <span class="factory-anomaly factory-anomaly-alert">Tray jam</span>
-                        <span class="factory-anomaly">Grasp fail</span>
-                        <span class="factory-anomaly">Missing part</span>
-                      </div>
-                    </div>
-                    <div class="factory-results">
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>DQN</span><strong>100.0%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 100%"></span></div>
-                      </div>
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>AVI</span><strong>100.0%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 100%"></span></div>
-                      </div>
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>ASNet</span><strong>100.0%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 100%"></span></div>
-                      </div>
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>PPO-MLP</span><strong>96.7%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 96.7%"></span></div>
-                      </div>
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>GNN-RGAT</span><strong>93.3%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 93.3%"></span></div>
-                      </div>
-                      <div class="factory-result">
-                        <div class="factory-result-head"><span>GNN-WMPNN</span><strong>91.7%</strong></div>
-                        <div class="factory-result-bar"><span style="--value: 91.7%"></span></div>
-                      </div>
-                      <p class="factory-result-note">
-                        All learned policies exceed 91% success; DQN, AVI, and ASNet pass 60/60 episodes,
-                        while the random baseline remains below 5%.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </article>
-        </div>
+        </article>
       </section>
 
       <section class="section" id="committee">
         <div class="section-heading reveal">
           <div>
-            <p class="eyebrow">Committee and Collaborators</p>
-            <h2>Committee</h2>
+            <p class="eyebrow">Committee</p>
+            <h2>Committee Members</h2>
           </div>
-          <p>
-            Dissertation advisors and committee members who supported and shaped this work.
-          </p>
         </div>
 
         <div class="committee-grid">
@@ -1060,8 +266,8 @@
           </article>
         </div>
       </section>
-
     </main>
+
     <footer class="site-footer">
       <div class="footer-inner">
         <div>
@@ -1069,6 +275,7 @@
           <p>PhD in Computer Science, University of South Carolina</p>
         </div>
         <div class="footer-links">
+          <a href="research-questions.html">Research Questions</a>
           <a href="mailto:vishal.pallagani@gmail.com">Email</a>
           <a href="https://www.linkedin.com/in/vishalpallagani" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://scholar.google.com/citations?user=uUkfixUAAAAJ&hl=en" target="_blank"
